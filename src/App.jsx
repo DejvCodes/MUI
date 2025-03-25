@@ -4,20 +4,20 @@ import DeleteIcon from '@mui/icons-material/Delete'
 import { Send } from "@mui/icons-material"
 import { styled } from "@mui/system"
 
-const App = () => {
-  const StyledButton = styled(Button)(({ theme }) => ({
-    backgroundColor: theme.palette.primary.main,
-    color: "black",
-    margin: theme.spacing(1),
-    "&:hover": {
-      backgroundColor: "lightblue",
-    },
-    "&:disabled": {
-      backgroundColor: theme.palette.otherColor.main,
-      color: "white",
-    },
-  }))
+const StyledButton = styled(Button)(({ theme }) => ({
+  backgroundColor: theme.palette.primary.main,
+  color: "black",
+  margin: theme.spacing(1),
+  "&:hover": {
+    backgroundColor: "lightblue",
+  },
+  "&:disabled": {
+    backgroundColor: theme.palette.otherColor.main,
+    color: "white",
+  },
+}))
 
+const App = () => {
   return <>
     <Box sx={{ display: "flex", gap: 2, margin: 2 }}>
       <Button
