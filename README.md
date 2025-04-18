@@ -1,4 +1,4 @@
 ## Material UI basics
 
-## 🔐 License 
+## 🔐 License
 [MIT License](LICENSE)
